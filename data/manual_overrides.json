@@ -1,4 +1,20 @@
 {
-  "incident_overrides": {},
+  "incident_overrides": {
+    "f93225d3723e": {
+      "construction_related": true,
+      "verified_fatalities": 1,
+      "verification_status": "verified",
+      "notes": "Construction worker killed at I-79 work site, southern Monongalia County, 2026-09-22. WSP update via WBOY; also reported by WV MetroNews (68e106ad42d4)."
+    },
+    "68e106ad42d4": {
+      "construction_related": true,
+      "verified_fatalities": 0,
+      "notes": "Same event as f93225d3723e. Fatality counted there. 2 additional workers injured."
+    },
+    "b09e2f031953": {
+      "verified_fatalities": 0,
+      "notes": "Pets died in RV fire. No human fatalities."
+    }
+  },
   "manual_incidents": []
 }

@@ -77,6 +77,10 @@ INCIDENT_TERMS = [
     "rollover",
     "tractor trailer",
     "traffic backup",
+    "work site",
+    "worksite",
+    "injured",
+    "struck",
 ]
 
 SPELLED_NUMBERS = {
@@ -98,6 +102,8 @@ CONSTRUCTION_TERMS = [
     "detour",
     "road work",
     "maintenance",
+    "work site",
+    "construction worker",
 ]
 
 LOCATION_HINTS = {
@@ -223,6 +229,8 @@ def extract_fatalities(text: str) -> int:
         "fatal",
         "killed",
         "died",
+        "dies",
+        "death",
         "dead",
         "medical examiner called",
         "pronounced dead",
@@ -425,7 +433,8 @@ def parse_wv511_i79_incidents(lines: list[str]) -> list[Incident]:
 def fetch_wv511_incidents() -> list[Incident]:
     try:
         raw = fetch(WV511_DELAY_URL).decode("utf-8", errors="ignore")
-    except Exception:
+    except Exception as e:
+        print(f"WARNING: WV511 fetch failed: {e}", flush=True)
         return []
     return parse_wv511_i79_incidents(html_to_lines(raw))
 
@@ -465,8 +474,10 @@ def iter_wboy_historical_posts() -> Iterable[dict]:
             except HTTPError as exc:
                 if exc.code == 400:
                     break
+                print(f"WARNING: WBOY API {exc.code} for {term!r} page {page}", flush=True)
                 continue
-            except Exception:
+            except Exception as e:
+                print(f"WARNING: WBOY API failed for {term!r} page {page}: {e}", flush=True)
                 continue
 
             if not isinstance(payload, list) or not payload:
@@ -776,11 +787,15 @@ def load_existing_incidents() -> tuple[list[Incident], set[str]]:
 def build_dataset() -> dict:
     """Ingest all sources, deduplicate, apply overrides, and return the full dataset dict."""
     incidents, seen = load_existing_incidents()
+    # Titles get re-punctuated between RSS and the WP API, which changes the
+    # id. Dedupe news stories on URL too. WV511 shares one URL, so skip it.
+    seen_urls = {i.url for i in incidents if i.source != "wv511.org"}
 
     for feed in RSS_FEEDS:
         try:
             xml_bytes = fetch(feed)
-        except Exception:
+        except Exception as e:
+            print(f"WARNING: fetch failed for {feed}: {e}", flush=True)
             continue
 
         try:
@@ -799,9 +814,10 @@ def build_dataset() -> dict:
                 continue
 
             iid = incident_id(url, item["title"])
-            if iid in seen:
+            if iid in seen or url in seen_urls:
                 continue
             seen.add(iid)
+            seen_urls.add(url)
 
             location_text, lat, lon = infer_location(blob)
             construction_related = any(term in blob.lower() for term in CONSTRUCTION_TERMS)
@@ -832,9 +848,10 @@ def build_dataset() -> dict:
 
     try:
         for incident in fetch_wdtv_historical_incidents():
-            if incident.id in seen:
+            if incident.id in seen or incident.url in seen_urls:
                 continue
             seen.add(incident.id)
+            seen_urls.add(incident.url)
             incidents.append(incident)
     except Exception as e:
         print(f"WARNING: WDTV fetch failed: {e}", flush=True)
@@ -844,9 +861,10 @@ def build_dataset() -> dict:
             incident = to_wboy_incident(post)
             if not incident:
                 continue
-            if incident.id in seen:
+            if incident.id in seen or incident.url in seen_urls:
                 continue
             seen.add(incident.id)
+            seen_urls.add(incident.url)
             incidents.append(incident)
     except Exception as e:
         print(f"WARNING: WBOY fetch failed: {e}", flush=True)
