@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-23T10:28:04.025585+00:00",
-    "incident_count": 228,
+    "generated_at": "2026-09-23T15:46:37.854399+00:00",
+    "incident_count": 229,
     "suspected_fatalities": 30,
     "construction_related_count": 49,
     "official_source_count": 32,
     "verified_count": 33
   },
   "incidents": [
+    {
+      "id": "e635a7611095",
+      "title": "Car fire shuts down I-79 South in Marion County",
+      "url": "https://www.wboy.com/emergencies/car-fire-shuts-down-i-79-south-in-marion-county/",
+      "source": "wboy.com",
+      "published_at": "2026-09-23T15:06:20+00:00",
+      "summary": "Southbound traffic on Interstate 79 was shut down in Marion County Wednesday morning following a reported vehicle fire.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "68e106ad42d4",
       "title": "One worker dead, 2 workers injured at I-79 work site on Monongalia-Marion county line",
