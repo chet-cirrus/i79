@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-24T10:44:56.994503+00:00",
-    "incident_count": 230,
+    "generated_at": "2026-09-24T16:08:14.990358+00:00",
+    "incident_count": 231,
     "suspected_fatalities": 30,
-    "construction_related_count": 49,
-    "official_source_count": 33,
-    "verified_count": 34
+    "construction_related_count": 50,
+    "official_source_count": 34,
+    "verified_count": 35
   },
   "incidents": [
+    {
+      "id": "f11ba54a09aa",
+      "title": "I-79 Construction",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-09-24T09:08:12+00:00",
+      "summary": "Construction on I-79N at Mile Marker 137.0.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "b613a140903c",
       "title": "I-79 Vehicle Crash",
