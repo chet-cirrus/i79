@@ -1,8 +1,8 @@
 # I-79 Safety Monitor (North Central West Virginia)
 
-[![Refresh I-79 Dataset](https://github.com/chettobrey/i79/actions/workflows/refresh-data.yml/badge.svg)](https://github.com/chettobrey/i79/actions/workflows/refresh-data.yml)
+[![Refresh I-79 Dataset](https://github.com/chet-cirrus/i79/actions/workflows/refresh-data.yml/badge.svg)](https://github.com/chet-cirrus/i79/actions/workflows/refresh-data.yml)
 
-**Live dashboard:** https://chettobrey.github.io/i79/
+**Live dashboard:** https://chet-cirrus.github.io/i79/
 
 Public dashboard for tracking reported crashes and potential fatalities along Interstate 79 in Monongalia, Marion, and Harrison counties.
 
@@ -111,4 +111,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-[Chet Tobrey](https://github.com/chettobrey)
+[Chet Tobrey](https://github.com/chet-cirrus)
