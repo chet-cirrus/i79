@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-30T17:13:57.678549+00:00",
-    "incident_count": 232,
+    "generated_at": "2026-09-30T21:39:55.180535+00:00",
+    "incident_count": 233,
     "suspected_fatalities": 30,
     "construction_related_count": 51,
-    "official_source_count": 35,
-    "verified_count": 36
+    "official_source_count": 36,
+    "verified_count": 37
   },
   "incidents": [
+    {
+      "id": "bb2b9f1dd9d9",
+      "title": "I-79 Bridge Inspection Work",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-09-30T14:49:12+00:00",
+      "summary": "Bridge Inspection Work on I-79S at Mile Marker 140.1.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "2834c5645edf",
       "title": "I-79 Construction",
