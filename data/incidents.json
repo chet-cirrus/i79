@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-10-06T03:49:14.477459+00:00",
-    "incident_count": 234,
+    "generated_at": "2026-10-06T12:25:11.413800+00:00",
+    "incident_count": 235,
     "suspected_fatalities": 30,
     "construction_related_count": 51,
-    "official_source_count": 37,
-    "verified_count": 38
+    "official_source_count": 38,
+    "verified_count": 39
   },
   "incidents": [
+    {
+      "id": "f186ea818e3b",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-10-06T08:10:02+00:00",
+      "summary": "Debris in Roadway on I-79S at Mile Marker 134.6.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "54841dc7784c",
       "title": "I-79 Vehicle Crash",
