@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-10-06T12:25:11.413800+00:00",
-    "incident_count": 235,
+    "generated_at": "2026-10-06T22:01:19.204937+00:00",
+    "incident_count": 236,
     "suspected_fatalities": 30,
     "construction_related_count": 51,
-    "official_source_count": 38,
-    "verified_count": 39
+    "official_source_count": 39,
+    "verified_count": 40
   },
   "incidents": [
+    {
+      "id": "02e31c5f9a4d",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-10-06T17:29:03+00:00",
+      "summary": "Vehicle Crash on I-79S at Mile Marker 124.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "f186ea818e3b",
       "title": "I-79 Debris in Roadway",
