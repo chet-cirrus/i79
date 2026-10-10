@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-10-10T16:35:23.328756+00:00",
-    "incident_count": 239,
+    "generated_at": "2026-10-10T20:53:05.268542+00:00",
+    "incident_count": 241,
     "suspected_fatalities": 30,
     "construction_related_count": 52,
     "official_source_count": 42,
     "verified_count": 43
   },
   "incidents": [
+    {
+      "id": "5a732980cef0",
+      "title": "Semi truck rollover shuts down I-79 SB in Bridgeport",
+      "url": "https://www.wdtv.com/2026/10/10/semi-truck-rollover-shuts-down-i-79-sb-bridgeport/",
+      "source": "wdtv.com",
+      "published_at": "2026-10-10T20:05:40.290000+00:00",
+      "summary": "Officials say one driver involved has been flown via Healthnet.",
+      "location_text": "Bridgeport",
+      "lat": 39.2865,
+      "lon": -80.2562,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "6faa080bbd52",
+      "title": "I-79 lanes in Bridgeport shut down due to tractor trailer rollover",
+      "url": "https://www.wboy.com/news/harrison/i-79-lanes-in-bridgeport-shut-down-due-to-tractor-trailer-rollover/",
+      "source": "wboy.com",
+      "published_at": "2026-10-10T19:37:48+00:00",
+      "summary": "Bridgeport fire, police and EMS, along with the Harrison County Sheriff's Office and the West Virginia Division of Highways, have responded to the scene.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "93110cd17ed7",
       "title": "I-79 Paving Operations",
