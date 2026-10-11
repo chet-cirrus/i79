@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-10-10T20:53:05.268542+00:00",
-    "incident_count": 241,
+    "generated_at": "2026-10-11T02:52:15.116425+00:00",
+    "incident_count": 242,
     "suspected_fatalities": 30,
     "construction_related_count": 52,
     "official_source_count": 42,
     "verified_count": 43
   },
   "incidents": [
+    {
+      "id": "c8bb81c248d7",
+      "title": "I-79 traffic snarled southbound in Harrison County following Mountaineer game",
+      "url": "https://wvmetronews.com/2026/10/10/i-79-traffic-snarled-southbound-in-harrison-county-following-mountaineer-game/",
+      "source": "wvmetronews.com",
+      "published_at": "2026-10-10T20:51:07+00:00",
+      "summary": "Wreck backs up postgame traffic for several miles. The post I-79 traffic snarled southbound in Harrison County following Mountaineer game appeared first on WV MetroNews .",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "5a732980cef0",
       "title": "Semi truck rollover shuts down I-79 SB in Bridgeport",
