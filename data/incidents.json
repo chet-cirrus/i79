@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-10-18T19:51:47.125689+00:00",
-    "incident_count": 244,
+    "generated_at": "2026-10-19T02:22:24.680575+00:00",
+    "incident_count": 245,
     "suspected_fatalities": 30,
-    "construction_related_count": 53,
+    "construction_related_count": 54,
     "official_source_count": 44,
     "verified_count": 45
   },
   "incidents": [
+    {
+      "id": "2eca868f1f1a",
+      "title": "Emergency crews respond to 3-vehicle accident on I-79, prompting brief road closure",
+      "url": "https://www.wdtv.com/2026/10/18/emergency-crews-respond-3-vehicle-accident-i-79/",
+      "source": "wdtv.com",
+      "published_at": "2026-10-18T20:13:11.014000+00:00",
+      "summary": "Emergency crews responded to a multi-vehicle accident on I-79 near White Hall on Sunday afternoon, prompting a short lane closure.",
+      "location_text": "White Hall",
+      "lat": 39.4443,
+      "lon": -80.1723,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "00368d8c46d5",
       "title": "I-79 Vehicle Crash",
