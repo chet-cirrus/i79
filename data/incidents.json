@@ -1,13 +1,64 @@
 {
   "summary": {
-    "generated_at": "2026-10-20T10:38:18.776787+00:00",
-    "incident_count": 249,
+    "generated_at": "2026-10-20T16:01:36.068531+00:00",
+    "incident_count": 252,
     "suspected_fatalities": 30,
     "construction_related_count": 55,
-    "official_source_count": 46,
-    "verified_count": 47
+    "official_source_count": 47,
+    "verified_count": 48
   },
   "incidents": [
+    {
+      "id": "ffa697aecbf1",
+      "title": "Semi wreck dumps logs, closes I-79 North in Braxton County",
+      "url": "https://www.wboy.com/emergencies/semi-wreck-dumps-logs-closes-i-79-in-braxton-county/",
+      "source": "wboy.com",
+      "published_at": "2026-10-20T14:19:14+00:00",
+      "summary": "A multi-tractor trailer accident has closed northbound Interstate 79 in Braxton County.",
+      "location_text": "Unspecified stretch",
+      "lat": null,
+      "lon": null,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "414e54ac75ac",
+      "title": "Northbound lanes remain closed following I-79 vehicle fire",
+      "url": "https://www.wboy.com/emergencies/northbound-lane-remains-closed-following-i-79-vehicle-fire/",
+      "source": "wboy.com",
+      "published_at": "2026-10-20T13:11:57+00:00",
+      "summary": "Traffic on Interstate 79 North remains at a standstill in Monongalia County following a vehicle accident Tuesday morning.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "fc4f689eae07",
+      "title": "I-79 Vehicle Fire",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-10-20T10:45:01+00:00",
+      "summary": "Vehicle Fire on I-79N at Mile Marker 146.0. The northbound road is closed.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "6882c2e8ee9e",
       "title": "I-79 Vehicle Fire",
