@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-10-19T21:54:50.765682+00:00",
-    "incident_count": 246,
+    "generated_at": "2026-10-20T02:35:57.566515+00:00",
+    "incident_count": 248,
     "suspected_fatalities": 30,
     "construction_related_count": 55,
     "official_source_count": 45,
     "verified_count": 46
   },
   "incidents": [
+    {
+      "id": "f4c7719fcc67",
+      "title": "Multi-vehicle accident shuts down I-79 South in Mon County",
+      "url": "https://www.wdtv.com/2026/10/19/multi-vehicle-accident-shuts-down-i-79-south-mon-county/",
+      "source": "wdtv.com",
+      "published_at": "2026-10-19T22:31:03.407000+00:00",
+      "summary": "A multi-vehicle accident shut down the southbound road of I-79 on Monday afternoon.",
+      "location_text": "Unspecified stretch",
+      "lat": null,
+      "lon": null,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "a2798a0f3ab5",
+      "title": "3-5 vehicle wreck slows traffic on I-79 South in Mon County",
+      "url": "https://www.wboy.com/emergencies/3-5-vehicle-wreck-shuts-down-i-79-south-in-mon-county/",
+      "source": "wboy.com",
+      "published_at": "2026-10-19T21:58:33+00:00",
+      "summary": "Interstate 79 South traffic is at a standstill in Monongalia County following a multi-vehicle wreck Monday afternoon.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "87f1eb48cebb",
       "title": "I-79 Paving Operations",
