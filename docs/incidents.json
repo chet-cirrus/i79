@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-10-20T02:35:57.566515+00:00",
-    "incident_count": 248,
+    "generated_at": "2026-10-20T10:38:18.776787+00:00",
+    "incident_count": 249,
     "suspected_fatalities": 30,
     "construction_related_count": 55,
-    "official_source_count": 45,
-    "verified_count": 46
+    "official_source_count": 46,
+    "verified_count": 47
   },
   "incidents": [
+    {
+      "id": "6882c2e8ee9e",
+      "title": "I-79 Vehicle Fire",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-10-20T05:17:03+00:00",
+      "summary": "Vehicle Fire on I-79N at Mile Marker 145.5. The northbound road is closed.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "f4c7719fcc67",
       "title": "Multi-vehicle accident shuts down I-79 South in Mon County",
