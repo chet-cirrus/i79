@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-10-20T21:00:35.641694+00:00",
-    "incident_count": 255,
+    "generated_at": "2026-10-21T02:29:59.214631+00:00",
+    "incident_count": 256,
     "suspected_fatalities": 30,
     "construction_related_count": 56,
-    "official_source_count": 47,
-    "verified_count": 48
+    "official_source_count": 48,
+    "verified_count": 49
   },
   "incidents": [
+    {
+      "id": "a409a54e233d",
+      "title": "I-79 Vehicle Fire",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-10-20T22:08:56+00:00",
+      "summary": "Vehicle Fire on I-79N at Mile Marker 146.0. The northbound right lane is closed.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "c36b7039f0a6",
       "title": "I-79 north reopens in Braxton County after 4 tractor trailers involved in crash",
