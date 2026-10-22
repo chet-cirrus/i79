@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-10-22T10:50:52.094230+00:00",
-    "incident_count": 256,
+    "generated_at": "2026-10-22T16:17:00.224600+00:00",
+    "incident_count": 257,
     "suspected_fatalities": 30,
-    "construction_related_count": 56,
-    "official_source_count": 48,
-    "verified_count": 49
+    "construction_related_count": 57,
+    "official_source_count": 49,
+    "verified_count": 50
   },
   "incidents": [
+    {
+      "id": "b4e22fcb7a29",
+      "title": "I-79 Construction",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-10-22T10:07:42+00:00",
+      "summary": "Construction on I-79N at Mile Marker 142.0. The northbound left lane is closed.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "a409a54e233d",
       "title": "I-79 Vehicle Fire",
