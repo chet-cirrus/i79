@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-11-03T13:15:07.185815+00:00",
-    "incident_count": 261,
+    "generated_at": "2026-11-03T22:42:00.559452+00:00",
+    "incident_count": 262,
     "suspected_fatalities": 30,
-    "construction_related_count": 59,
-    "official_source_count": 53,
-    "verified_count": 54
+    "construction_related_count": 60,
+    "official_source_count": 54,
+    "verified_count": 55
   },
   "incidents": [
+    {
+      "id": "7901e1ba54d7",
+      "title": "I-79 Bridge Deck Repairs",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-11-03T08:01:43+00:00",
+      "summary": "Bridge Deck Repairs on I-79S at Mile Marker 142.0. The southbound right lane is closed.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "3975c8425364",
       "title": "I-79 Congestion-Delay",
