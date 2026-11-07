@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-11-07T12:05:16.529946+00:00",
-    "incident_count": 263,
+    "generated_at": "2026-11-07T21:14:01.174724+00:00",
+    "incident_count": 264,
     "suspected_fatalities": 31,
     "construction_related_count": 60,
-    "official_source_count": 55,
-    "verified_count": 56
+    "official_source_count": 56,
+    "verified_count": 57
   },
   "incidents": [
+    {
+      "id": "c63b684e4fe7",
+      "title": "I-79 Pot hole Bridge",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-11-07T10:35:07+00:00",
+      "summary": "Pot hole Bridge on I-79N at Mile Marker 155.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "09a19d120a40",
       "title": "I-79 Dead Animal on Roadway",
