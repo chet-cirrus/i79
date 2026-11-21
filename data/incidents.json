@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-11-20T19:26:01.742828+00:00",
-    "incident_count": 266,
+    "generated_at": "2026-11-21T04:46:20.211556+00:00",
+    "incident_count": 267,
     "suspected_fatalities": 31,
     "construction_related_count": 62,
     "official_source_count": 58,
     "verified_count": 59
   },
   "incidents": [
+    {
+      "id": "c043f77fad5b",
+      "title": "Crews respond to vehicle fire on I-79 on Marion, Mon County line",
+      "url": "https://www.wdtv.com/2026/11/20/vehicle-fire-shuts-down-southbound-lane-i-79-marion-county/",
+      "source": "wdtv.com",
+      "published_at": "2026-11-20T21:16:01.431000+00:00",
+      "summary": "A vehicle fire shut part of I-79 on Friday afternoon.",
+      "location_text": "Unspecified stretch",
+      "lat": null,
+      "lon": null,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "0c9b5539f4c5",
       "title": "I-79 Bridge Work",
